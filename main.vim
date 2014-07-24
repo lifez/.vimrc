@@ -1,10 +1,11 @@
 " get directory
 let s:dirname = expand("<sfile>:p:h")
+"set F2 to pastetoggle
 set pastetoggle=<F2>
 " turn on syntax highlighting
 syntax on
 filetype plugin on
-
+map <C-f> :NERDTreeToggle<CR>
 " cursor position, terminal background
 set ruler background=dark
 

@@ -6,6 +6,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'dtinth/vim-colors-dtinth256'
 
 " functionality
+Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'nathanaelkane/vim-indent-guides'
