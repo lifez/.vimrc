@@ -79,4 +79,6 @@ let g:EclimJavascriptLintEnabled=0
 let g:EclimJavascriptValidate=0
 let g:syntastic_html_checkers=[] " syntastic, don't complain about my awesome angular html6
 
-
+if $TERM == "xterm-256color"
+  set t_Co=256
+endif

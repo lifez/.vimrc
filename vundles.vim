@@ -7,6 +7,7 @@ Plugin 'dtinth/vim-colors-dtinth256'
 
 " functionality
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'nathanaelkane/vim-indent-guides'
