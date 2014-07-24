@@ -1,6 +1,6 @@
 " get directory
 let s:dirname = expand("<sfile>:p:h")
-
+set pastetoggle=<F2>
 " turn on syntax highlighting
 syntax on
 filetype plugin on

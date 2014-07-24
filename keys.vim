@@ -1,11 +1,10 @@
-
 " space is the leader
 let mapleader = " "
 
 " ctrl+s: save
-map <c-s> :up<cr>
-imap <c-s> <esc>:up<cr>
-
+:nmap <c-s> :w<CR>
+:imap <c-s> <Esc>:w<CR>a
+:imap <c-s> <Esc><c-s>
 " easymotion
 map <leader>a <leader><leader>F
 map <leader>o <leader><leader>f
@@ -18,10 +17,6 @@ map <leader>q <leader><leader>b
 map <leader>r :call custom_command#run()<cr>
 map <leader>S :call custom_command#set()<cr>!
 map <esc>r <leader>r
-imap <esc>r <c-o><leader>r
-" map <leader>i :!curl http://localhost:10101/codejom/copy -d _=_<cr><cr>
-" map <leader>s :call custom_command#set()<cr>!
-" map <leader>S :call custom_command#set()<cr>
 map <leader>n :call custom_command#set()<cr>!node %
 map <leader>b :call custom_command#set()<cr>!ruby %
 

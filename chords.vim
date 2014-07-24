@@ -33,12 +33,10 @@ function! chords#common()
   Arpeggio inoremap the the
   Arpeggio inoremap () ()<Left>
   Arpeggio inoremap {} {<CR>}<Esc>O<Tab>
-  Arpeggio inoremap rs <C-w>
-  Arpeggio inoremap ei <C-w>
-  Arpeggio nnoremap rst ciw
-  Arpeggio nnoremap nei ciw
-  Arpeggio nnoremap stn ci'
-  Arpeggio nnoremap tne ci"
+  Arpeggio inoremap sd <C-w>
+  Arpeggio inoremap kl <C-w>
+  Arpeggio nnoremap df ciw
+  Arpeggio nnoremap jk ciw
   Arpeggio inoremap tru true
   Arpeggio inoremap fal false
   Arpeggio inoremap mat Math
