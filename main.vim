@@ -14,6 +14,7 @@ set cc=80
 
 " auto indent
 set autoindent
+filetype indent on
 
 " scroll speed
 set scroll=8
