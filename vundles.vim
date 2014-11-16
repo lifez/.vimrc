@@ -23,6 +23,8 @@ Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'dtinth/vim-reveal-in-finder'
 Plugin 'bling/vim-airline'
+Plugin 'gorkunov/smartgf'
+Plugin 'gorkunov/smartpairs'
 
 " language support
 Plugin 'moll/vim-node'
