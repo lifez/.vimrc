@@ -9,6 +9,7 @@ exe "source " . s:dirname . "/vundles.vim"
 call vundle#end()
 
 exe "source " . s:dirname . "/main.vim"
-colors dtinth256
+"colors dtinth256
+colors badwolf
 filetype plugin on
 

@@ -42,6 +42,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'xsbeats/vim-blade'
 Plugin 'marijnh/tern_for_vim'
+Plugin 'burnettk/vim-angular'
 
 " text objects
 Plugin 'kana/vim-textobj-user'
@@ -53,3 +54,6 @@ Plugin 'LanguageTool'
 
 " chording
 Plugin 'kana/vim-arpeggio'
+
+" for Color
+Plugin 'sjl/badwolf'
